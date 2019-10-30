@@ -10,9 +10,19 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #faaca8, #ddd6f3);
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     box-shadow: 0 8px 6px -6px black;
     margin-bottom: 30px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.menu li {
     padding: 20px;
 }
 
@@ -21,10 +31,6 @@ h1 {
     justify-content: center;
     margin-bottom: 20px;
     font-size: 50px;
-    -webkit-text-stroke: #010a43; /*darkblue*/
-    color: rgba(255, 255, 255, 0.3);
-    text-shadow: 3px 3px 0 #010a43, -1px -1px 0 #010a43, 1px -1px 0 #010a43,
-        -1px 1px 0 #010a43, 1px 1px 0 #010a43;
 }
 
 h2 {
@@ -49,7 +55,7 @@ img {
     border-radius: 5px;
 }
 
-li {
+.project-list li {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
