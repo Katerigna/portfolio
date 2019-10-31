@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
     box-shadow: 0 8px 6px -6px black;
     margin-bottom: 30px;
     padding: 20px;
@@ -24,6 +24,12 @@ header {
 
 .menu li {
     padding: 20px;
+}
+
+body {
+    background-image: url("../background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
 }
 
 h1 {
